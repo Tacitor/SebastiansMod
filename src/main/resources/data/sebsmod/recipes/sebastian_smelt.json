@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "sebsmod:sebastian"
+  },
+  "result": "sebsmod:amber",
+  "experience": 1.0,
+  "cookingtime": 100
+}

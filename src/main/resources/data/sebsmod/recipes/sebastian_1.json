@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sebsmod:block_of_sebastian"
+    }
+  ],
+  "result":
+  {
+    "item": "sebsmod:sebastian",
+    "count": 4
+  }
+}

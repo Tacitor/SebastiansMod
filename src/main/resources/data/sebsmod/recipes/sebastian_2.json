@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "lad",
+    "ggg"
+  ],
+  "key":
+  {
+    "g":
+    {
+      "item": "minecraft:glass_pane"
+    },
+    "l":
+    {
+      "item": "minecraft:lime_dye"
+    },
+    "d":
+    {
+      "item": "minecraft:dirt"
+    },
+    "a":
+    {
+      "item": "minecraft:air"
+    }
+  },
+  "result":
+  {
+    "item": "sebsmod:sebastian",
+    "count": 1
+  }
+}

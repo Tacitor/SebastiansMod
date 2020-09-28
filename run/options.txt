@@ -57,7 +57,7 @@ tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
-skipMultiplayerWarning:false
+skipMultiplayerWarning:true
 key_key.attack:key.mouse.left
 key_key.use:key.mouse.right
 key_key.forward:key.keyboard.w

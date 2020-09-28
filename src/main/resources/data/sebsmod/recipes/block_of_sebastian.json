@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xx",
+    "xx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "sebsmod:sebastian"
+    }
+  },
+  "result":
+  {
+    "item": "sebsmod:block_of_sebastian",
+    "count": 1
+  }
+}
