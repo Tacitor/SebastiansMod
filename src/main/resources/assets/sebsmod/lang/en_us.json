@@ -1,6 +1,8 @@
 {
     "item.sebsmod.sebastian": "Sebastian",
     "item.sebsmod.amber": "Amber",
+    "item.sebsmod.sebastianium_ingot": "Sebastianium Ingot",  
+    "item.sebsmod.sebastian_sword": "Sebastian Sword",
     "block.sebsmod.onyx_block": "Onyx",
     "block.sebsmod.block_of_sebastian": "Block Of Sebastian",
     "itemGroup.sebsmodtab" : "Sebastian's Mod"
