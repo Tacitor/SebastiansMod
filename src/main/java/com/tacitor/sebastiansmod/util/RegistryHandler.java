@@ -12,8 +12,12 @@ import com.tacitor.sebastiansmod.blocks.OnyxBlock;
 import com.tacitor.sebastiansmod.blocks.SebastianBlock;
 import com.tacitor.sebastiansmod.tools.ModItemTier;
 import net.minecraft.block.Block;
+import net.minecraft.item.AxeItem;
+import net.minecraft.item.HoeItem;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.item.Item;
+import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.ShovelItem;
 import net.minecraft.item.SwordItem;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -40,7 +44,15 @@ public class RegistryHandler {
     
     //Tools
     public static final RegistryObject<SwordItem> SEBASTIAN_SWORD = ITEMS.register("sebastian_sword", () ->
-            new SwordItem(ModItemTier.SEBASTIAN, 7, -2.4f, new Item.Properties().group(SebastiansMod.MODTAB)));
+            new SwordItem(ModItemTier.SEBASTIAN, 8, -2.4f, new Item.Properties().group(SebastiansMod.MODTAB)));
+    public static final RegistryObject<PickaxeItem> SEBASTIAN_PICKAXE = ITEMS.register("sebastian_pickaxe", () ->
+            new PickaxeItem(ModItemTier.SEBASTIAN, 6, -2.8f, new Item.Properties().group(SebastiansMod.MODTAB)));
+    public static final RegistryObject<AxeItem> SEBASTIAN_AXE = ITEMS.register("sebastian_axe", () ->
+            new AxeItem(ModItemTier.SEBASTIAN, 10, -3f, new Item.Properties().group(SebastiansMod.MODTAB)));
+    public static final RegistryObject<ShovelItem> SEBASTIAN_SHOVEL = ITEMS.register("sebastian_shovel", () ->
+            new ShovelItem(ModItemTier.SEBASTIAN, 6.5f, -3f, new Item.Properties().group(SebastiansMod.MODTAB)));
+    public static final RegistryObject<HoeItem> SEBASTIAN_HOE = ITEMS.register("sebastian_hoe", () ->
+            new HoeItem(ModItemTier.SEBASTIAN, 0f, new Item.Properties().group(SebastiansMod.MODTAB)));
     
     //Blocks
     public static final RegistryObject<Block> ONYX_BLOCK = BLOCKS.register("onyx_block", OnyxBlock::new);
