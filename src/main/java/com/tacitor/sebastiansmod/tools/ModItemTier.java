@@ -16,8 +16,8 @@ import net.minecraft.item.crafting.Ingredient;
  */
 public enum ModItemTier implements IItemTier {
 
-    SEBASTIAN(4, 2000, 11.0f, 0.0f, 10, () -> {
-        return Ingredient.fromItems(RegistryHandler.SEBASTIAN.get());
+    SEBASTIAN(4, 2000, 11.0f, 0.0f, 10, () -> { //harvest level, durability, effecicy, base damage, enchangatibity
+        return Ingredient.fromItems(RegistryHandler.SEBASTIANIUM_INGOT.get());
     });
 
     private final int harvestLevel;
