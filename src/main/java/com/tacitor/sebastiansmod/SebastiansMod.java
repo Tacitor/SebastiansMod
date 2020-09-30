@@ -1,8 +1,14 @@
 package com.tacitor.sebastiansmod;
 
+import com.google.common.collect.Ordering;
 import com.tacitor.sebastiansmod.util.RegistryHandler;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.NonNullList;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -18,12 +24,14 @@ public class SebastiansMod
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "sebsmod";
+    
+    static Comparator<ItemStack> tabSorter;
 
     public SebastiansMod() {
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         // Register the doClientStuff method for modloading
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
+        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);        
         
         //load items
         RegistryHandler.init();
@@ -40,9 +48,26 @@ public class SebastiansMod
     
     public static final ItemGroup MODTAB = new ItemGroup("sebsmodtab") {
         
+        //set an icon
         @Override
         public ItemStack createIcon() {
             return new ItemStack(RegistryHandler.SEBASTIAN.get());
         }
+        
+        //change the order of the items (sorting)
+        @Override
+        public void fill(NonNullList<ItemStack> items) {
+            //sort the tab
+            modTabInit();
+            
+            super.fill(items);
+            items.sort(tabSorter);
+        }
     };
+    
+    static void modTabInit() {
+        //get the list of items in order
+        List<Item> order = Arrays.asList(RegistryHandler.SEBASTIAN.get(), Item.getItemFromBlock(RegistryHandler.BLOCK_OF_SEBASTIAN.get()), RegistryHandler.AMBER.get(), Item.getItemFromBlock(RegistryHandler.ONYX_BLOCK.get()), RegistryHandler.SEBASTIANIUM_INGOT.get(), RegistryHandler.SEBASTIAN_SWORD.get(), RegistryHandler.SEBASTIAN_PICKAXE.get(), RegistryHandler.SEBASTIAN_AXE.get(), RegistryHandler.SEBASTIAN_SHOVEL.get(), RegistryHandler.SEBASTIAN_HOE.get());
+        tabSorter = Ordering.explicit(order).onResultOf(ItemStack::getItem);
+    }
 }
