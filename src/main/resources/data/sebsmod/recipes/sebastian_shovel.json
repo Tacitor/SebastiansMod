@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "i",
+    "s",
+    "s"    
+  ],
+  "key":
+  {
+    "i":
+    {
+      "item": "sebsmod:sebastianium_ingot"
+    },
+    "s":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result":
+  {
+    "item": "sebsmod:sebastian_shovel",
+    "count": 1
+  }
+}

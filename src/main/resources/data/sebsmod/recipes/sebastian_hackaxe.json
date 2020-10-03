@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "ii",
+    "ip"    
+  ],
+  "key":
+  {
+    "i":
+    {
+      "item": "sebsmod:sebastianium_ingot"
+    },
+    "p":
+    {
+      "item": "sebsmod:sebastian_pickaxe"
+    }
+  },
+  "result":
+  {
+    "item": "sebsmod:sebastian_hackaxe",
+    "count": 1
+  }
+}

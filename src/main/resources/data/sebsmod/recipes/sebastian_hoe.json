@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "ii",
+    "sa",
+    "sa"    
+  ],
+  "key":
+  {
+    "i":
+    {
+      "item": "sebsmod:sebastianium_ingot"
+    },
+    "s":
+    {
+      "item": "minecraft:stick"
+    },
+    "a":
+    {
+      "item": "minecraft:air"
+    }
+  },
+  "result":
+  {
+    "item": "sebsmod:sebastian_hoe",
+    "count": 1
+  }
+}

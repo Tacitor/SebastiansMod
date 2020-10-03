@@ -1,13 +1,15 @@
 {
     "item.sebsmod.sebastian": "Sebastian",
     "item.sebsmod.amber": "Amber",
-    "item.sebsmod.sebastianium_ingot": "Sebastianium Ingot",
-    "item.sebsmod.sebastian_sword": "Sebastian Sword",
-    "item.sebsmod.sebastian_pickaxe": "Sebastian Pickaxe",
-    "item.sebsmod.sebastian_axe": "Sebastian Sxe",
-    "item.sebsmod.sebastian_shovel": "Sebastian Shovel",
-    "item.sebsmod.sebastian_hoe": "Sebastian Hoe",
+    "item.sebsmod.sebastianium_ingot": "Sebastainium Ingot",
+    "item.sebsmod.sebastian_sword": "Sebastainium Sword",
+    "item.sebsmod.sebastian_pickaxe": "Sebastainium Pickaxe",
+    "item.sebsmod.sebastian_axe": "Sebastainium Axe",
+    "item.sebsmod.sebastian_shovel": "Sebastainium Shovel",
+    "item.sebsmod.sebastian_hoe": "Sebastainium Hoe",
+    "item.sebsmod.sebastian_hackaxe": "Sebastainium Hackaxe",    
     "block.sebsmod.onyx_block": "Onyx",
     "block.sebsmod.block_of_sebastian": "Block Of Sebastian",
+    "block.sebsmod.sebastainium_block" : "Sebastainium Block",
     "itemGroup.sebsmodtab" : "Sebastian's Mod"
 }
