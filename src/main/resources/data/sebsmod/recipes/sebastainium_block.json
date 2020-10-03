@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "ddd",
+    "ddd",
+    "ddd"
+  ],
+  "key":
+  {
+    "d":
+    {
+      "item": "sebsmod:sebastianium_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "sebsmod:sebastainium_block",
+    "count": 1
+  }
+}

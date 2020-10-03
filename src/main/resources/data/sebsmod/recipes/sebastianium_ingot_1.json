@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sebsmod:sebastainium_block"
+    }
+  ],
+  "result":
+  {
+    "item": "sebsmod:sebastianium_ingot",
+    "count": 9
+  }
+}

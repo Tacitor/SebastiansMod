@@ -21,6 +21,7 @@ public class ItemGroupOrder {
             RegistryHandler.AMBER.get(), 
             Item.getItemFromBlock(RegistryHandler.ONYX_BLOCK.get()),
             RegistryHandler.SEBASTIANIUM_INGOT.get(),
+            Item.getItemFromBlock(RegistryHandler.SEBASTAINIUM_BLOCK.get()),
             RegistryHandler.SEBASTIAN_SWORD.get(),
             RegistryHandler.SEBASTIAN_PICKAXE.get(), 
             RegistryHandler.SEBASTIAN_HACKAXE.get(), 
