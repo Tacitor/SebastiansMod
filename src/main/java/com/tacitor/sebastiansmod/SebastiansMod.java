@@ -1,6 +1,8 @@
 package com.tacitor.sebastiansmod;
 
 import com.google.common.collect.Ordering;
+import com.tacitor.sebastiansmod.util.HackaxeData;
+import com.tacitor.sebastiansmod.util.ItemGroupOrder;
 import com.tacitor.sebastiansmod.util.RegistryHandler;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -67,7 +69,10 @@ public class SebastiansMod
     
     static void modTabInit() {
         //get the list of items in order
-        List<Item> order = Arrays.asList(RegistryHandler.SEBASTIAN.get(), Item.getItemFromBlock(RegistryHandler.BLOCK_OF_SEBASTIAN.get()), RegistryHandler.AMBER.get(), Item.getItemFromBlock(RegistryHandler.ONYX_BLOCK.get()), RegistryHandler.SEBASTIANIUM_INGOT.get(), RegistryHandler.SEBASTIAN_SWORD.get(), RegistryHandler.SEBASTIAN_PICKAXE.get(), RegistryHandler.SEBASTIAN_HACKAXE.get(), RegistryHandler.SEBASTIAN_AXE.get(), RegistryHandler.SEBASTIAN_SHOVEL.get(), RegistryHandler.SEBASTIAN_HOE.get());
-        tabSorter = Ordering.explicit(order).onResultOf(ItemStack::getItem);
+        
+        //import the order
+        ItemGroupOrder ORDER = new ItemGroupOrder();
+        
+        tabSorter = Ordering.explicit(ORDER.getOrder()).onResultOf(ItemStack::getItem);
     }
 }

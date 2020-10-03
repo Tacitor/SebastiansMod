@@ -5,7 +5,6 @@
  */
 package com.tacitor.sebastiansmod.util;
 
-import com.google.common.collect.Sets;
 import com.tacitor.sebastiansmod.SebastiansMod;
 import com.tacitor.sebastiansmod.blocks.BlockItemBase;
 import com.tacitor.sebastiansmod.items.ItemBase;
@@ -13,9 +12,7 @@ import com.tacitor.sebastiansmod.blocks.OnyxBlock;
 import com.tacitor.sebastiansmod.blocks.SebastianBlock;
 import com.tacitor.sebastiansmod.tools.ModItemTier;
 import com.tacitor.sebastiansmod.tools.MultiPickaxeItem;
-import java.util.Set;
 import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
 import net.minecraft.item.AxeItem;
 import net.minecraft.item.HoeItem;
 import net.minecraftforge.registries.DeferredRegister;
@@ -23,6 +20,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ShovelItem;
 import net.minecraft.item.SwordItem;
+import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -36,7 +34,8 @@ public class RegistryHandler {
     public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, SebastiansMod.MOD_ID);
     public static final DeferredRegister<Block> BLOCKS = new DeferredRegister<>(ForgeRegistries.BLOCKS, SebastiansMod.MOD_ID);
     
-    public static final Set<Block> HACKAXE_EFFECTIVE_ON = Sets.newHashSet(Blocks.OAK_PLANKS, Blocks.SPRUCE_PLANKS, Blocks.BIRCH_PLANKS, Blocks.OAK_LOG, Blocks.STRIPPED_BIRCH_LOG, Blocks.CRAFTING_TABLE, Blocks.OAK_FENCE, Blocks.OAK_STAIRS, Blocks.OAK_DOOR, Blocks.ACACIA_PLANKS);
+    //Import an object holding all the large variables
+    private static final HackaxeData HACKAXE_VAR = new HackaxeData();
     
     public static void init() {
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
@@ -60,7 +59,7 @@ public class RegistryHandler {
     public static final RegistryObject<HoeItem> SEBASTIAN_HOE = ITEMS.register("sebastian_hoe", () ->
             new HoeItem(ModItemTier.SEBASTIAN, 0f, new Item.Properties().group(SebastiansMod.MODTAB)));
     public static final RegistryObject<MultiPickaxeItem> SEBASTIAN_HACKAXE = ITEMS.register("sebastian_hackaxe", () ->
-            new MultiPickaxeItem(ModItemTier.SEBASTIAN, 6, -3f, HACKAXE_EFFECTIVE_ON, new Item.Properties().group(SebastiansMod.MODTAB)));
+            new MultiPickaxeItem(ModItemTier.SEBASTIAN, 6, -3f, HACKAXE_VAR.getHackaxeEffectiveOn(), new Item.Properties().group(SebastiansMod.MODTAB).addToolType(ToolType.AXE, 4)));
     
     //Blocks
     public static final RegistryObject<Block> ONYX_BLOCK = BLOCKS.register("onyx_block", OnyxBlock::new);
