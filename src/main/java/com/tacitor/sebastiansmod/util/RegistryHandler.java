@@ -6,6 +6,7 @@
 package com.tacitor.sebastiansmod.util;
 
 import com.tacitor.sebastiansmod.SebastiansMod;
+import com.tacitor.sebastiansmod.armor.ModArmorMaterial;
 import com.tacitor.sebastiansmod.blocks.BlockItemBase;
 import com.tacitor.sebastiansmod.items.ItemBase;
 import com.tacitor.sebastiansmod.blocks.OnyxBlock;
@@ -14,6 +15,8 @@ import com.tacitor.sebastiansmod.blocks.SebastianBlock;
 import com.tacitor.sebastiansmod.tools.ModItemTier;
 import com.tacitor.sebastiansmod.tools.MultiPickaxeItem;
 import net.minecraft.block.Block;
+import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.item.AxeItem;
 import net.minecraft.item.HoeItem;
 import net.minecraftforge.registries.DeferredRegister;
@@ -61,6 +64,16 @@ public class RegistryHandler {
             new HoeItem(ModItemTier.SEBASTIAN, 0f, new Item.Properties().group(SebastiansMod.MODTAB)));
     public static final RegistryObject<MultiPickaxeItem> SEBASTIAN_HACKAXE = ITEMS.register("sebastian_hackaxe", () ->
             new MultiPickaxeItem(ModItemTier.SEBASTIAN, 6, -3f, HACKAXE_VAR.getHackaxeEffectiveOn(), new Item.Properties().group(SebastiansMod.MODTAB).addToolType(ToolType.AXE, 4)));
+    
+    //armor
+    public static final RegistryObject<ArmorItem> SEBASTAINIUM_HELMET = ITEMS.register("sebastainium_helmet", () -> 
+        new ArmorItem(ModArmorMaterial.SEBASTIANIUM, EquipmentSlotType.HEAD, new Item.Properties().group(SebastiansMod.MODTAB)));
+    public static final RegistryObject<ArmorItem> SEBASTAINIUM_CHESTPLATE = ITEMS.register("sebastainium_chestplate", () -> 
+        new ArmorItem(ModArmorMaterial.SEBASTIANIUM, EquipmentSlotType.CHEST, new Item.Properties().group(SebastiansMod.MODTAB)));
+    public static final RegistryObject<ArmorItem> SEBASTAINIUM_LEGGINGS = ITEMS.register("sebastainium_leggings", () -> 
+        new ArmorItem(ModArmorMaterial.SEBASTIANIUM, EquipmentSlotType.LEGS, new Item.Properties().group(SebastiansMod.MODTAB)));
+    public static final RegistryObject<ArmorItem> SEBASTAINIUM_BOOTS = ITEMS.register("sebastainium_boots", () -> 
+        new ArmorItem(ModArmorMaterial.SEBASTIANIUM, EquipmentSlotType.FEET, new Item.Properties().group(SebastiansMod.MODTAB)));
     
     //Blocks
     public static final RegistryObject<Block> ONYX_BLOCK = BLOCKS.register("onyx_block", OnyxBlock::new);
