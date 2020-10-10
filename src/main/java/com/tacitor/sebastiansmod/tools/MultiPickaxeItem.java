@@ -33,22 +33,18 @@ public class MultiPickaxeItem extends PickaxeItem{
     
     @Override
     public boolean canHarvestBlock(BlockState block) {
-        //Import an object holding all the large variables
-        HackaxeData HACKAXE_VAR = new HackaxeData();
         
-        return HACKAXE_VAR.getHackaxeEffectiveOn().contains(block.getBlock()) ? true : super.canHarvestBlock(block);
+        return HackaxeData.HACKAXE_EFFECTIVE_ON.contains(block.getBlock()) ? true : super.canHarvestBlock(block);
     }
     
     @Override
     public float getDestroySpeed(ItemStack stack, BlockState state) {
-        //Import an object holding all the large variables
-        HackaxeData HACKAXE_VAR = new HackaxeData();
         
         Material material = state.getMaterial();
         if (material == Material.WOOD && material == Material.PLANTS) {
             return this.efficiency;
         }
 
-        return HACKAXE_VAR.getHackaxeEffectiveOn().contains(state.getBlock()) ? this.efficiency : super.getDestroySpeed(stack, state);
+        return HackaxeData.HACKAXE_EFFECTIVE_ON.contains(state.getBlock()) ? this.efficiency : super.getDestroySpeed(stack, state);
     }
 }

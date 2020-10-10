@@ -15,7 +15,7 @@ import net.minecraft.item.Item;
  */
 public class ItemGroupOrder {
     
-    private static final List<Item> TAB_ORDER = Arrays.asList(
+    public static final List<Item> TAB_ORDER = Arrays.asList(
             RegistryHandler.SEBASTIAN.get(), 
             Item.getItemFromBlock(RegistryHandler.BLOCK_OF_SEBASTIAN.get()), 
             RegistryHandler.AMBER.get(), 
@@ -33,13 +33,4 @@ public class ItemGroupOrder {
             RegistryHandler.SEBASTIAN_SHOVEL.get(), 
             RegistryHandler.SEBASTIAN_HOE.get()
     );
-    
-    public ItemGroupOrder() {
-        
-    }
-    
-    //accessor for the hackaxe
-    public List<Item> getOrder() {
-        return TAB_ORDER;
-    }    
 }

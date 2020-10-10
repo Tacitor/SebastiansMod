@@ -16,7 +16,7 @@ import net.minecraft.block.Blocks;
  */
 public class HackaxeData {
     
-    private static final Set<Block> HACKAXE_EFFECTIVE_ON = Sets.newHashSet(
+    public static final Set<Block> HACKAXE_EFFECTIVE_ON = Sets.newHashSet(
             Blocks.OAK_TRAPDOOR,
             Blocks.SPRUCE_TRAPDOOR,
             Blocks.BIRCH_TRAPDOOR,
@@ -186,14 +186,5 @@ public class HackaxeData {
             Blocks.RED_MUSHROOM_BLOCK,
             Blocks.BROWN_MUSHROOM_BLOCK,
             Blocks.VINE
-    );
-    
-    public HackaxeData() {
-        
-    }
-    
-    //accessor for the hackaxe
-    public Set<Block> getHackaxeEffectiveOn() {
-        return HACKAXE_EFFECTIVE_ON;
-    }    
+    ); 
 }

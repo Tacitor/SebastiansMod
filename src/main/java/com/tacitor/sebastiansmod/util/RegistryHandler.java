@@ -38,9 +38,6 @@ public class RegistryHandler {
     public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, SebastiansMod.MOD_ID);
     public static final DeferredRegister<Block> BLOCKS = new DeferredRegister<>(ForgeRegistries.BLOCKS, SebastiansMod.MOD_ID);
     
-    //Import an object holding all the large variables
-    private static final HackaxeData HACKAXE_VAR = new HackaxeData();
-    
     public static void init() {
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
         BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
@@ -63,7 +60,7 @@ public class RegistryHandler {
     public static final RegistryObject<HoeItem> SEBASTIAN_HOE = ITEMS.register("sebastian_hoe", () ->
             new HoeItem(ModItemTier.SEBASTIAN, 0f, new Item.Properties().group(SebastiansMod.MODTAB)));
     public static final RegistryObject<MultiPickaxeItem> SEBASTIAN_HACKAXE = ITEMS.register("sebastian_hackaxe", () ->
-            new MultiPickaxeItem(ModItemTier.SEBASTIAN, 6, -3f, HACKAXE_VAR.getHackaxeEffectiveOn(), new Item.Properties().group(SebastiansMod.MODTAB).addToolType(ToolType.AXE, 4)));
+            new MultiPickaxeItem(ModItemTier.SEBASTIAN, 6, -3f, HackaxeData.HACKAXE_EFFECTIVE_ON , new Item.Properties().group(SebastiansMod.MODTAB).addToolType(ToolType.AXE, 4)));
     
     //armor
     public static final RegistryObject<ArmorItem> SEBASTAINIUM_HELMET = ITEMS.register("sebastainium_helmet", () -> 
