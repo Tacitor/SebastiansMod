@@ -12,6 +12,7 @@ import com.tacitor.sebastiansmod.items.ItemBase;
 import com.tacitor.sebastiansmod.blocks.OnyxBlock;
 import com.tacitor.sebastiansmod.blocks.SebastainiumBlock;
 import com.tacitor.sebastiansmod.blocks.SebastianBlock;
+import com.tacitor.sebastiansmod.items.SebFood;
 import com.tacitor.sebastiansmod.tools.ModItemTier;
 import com.tacitor.sebastiansmod.tools.MultiPickaxeItem;
 import net.minecraft.block.Block;
@@ -44,7 +45,7 @@ public class RegistryHandler {
     }
     
     // Items
-    public static final RegistryObject<Item> SEBASTIAN = ITEMS.register("sebastian", ItemBase::new);
+    public static final RegistryObject<SebFood> SEBASTIAN = ITEMS.register("sebastian", SebFood::new);
     public static final RegistryObject<Item> AMBER = ITEMS.register("amber", ItemBase::new);    
     public static final RegistryObject<Item> SEBASTIANIUM_INGOT = ITEMS.register("sebastianium_ingot", ItemBase::new);
     

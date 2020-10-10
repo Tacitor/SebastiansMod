@@ -1,5 +1,5 @@
 /*
- * Lukas Krampitz
+ * Tacitor
  * Oct 3, 2020
  * Custom tool item, made for the hackaxe, and axe pickaxe multitool
  */
