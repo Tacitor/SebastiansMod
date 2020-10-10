@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "sebsmod:raw_sebastainium"
+  },
+  "result": "sebsmod:sebastianium_ingot",
+  "experience": 10.0,
+  "cookingtime": 200
+}

@@ -1,6 +1,8 @@
 {
     "item.sebsmod.sebastian": "Sebastian",
     "item.sebsmod.amber": "Amber",
+    "item.sebsmod.unrefined_sebastainium" : "Unrefined Sebastainium",
+    "item.sebsmod.raw_sebastainium" : "Raw Sebastainium",
     "item.sebsmod.sebastianium_ingot": "Sebastainium Ingot",
     "item.sebsmod.sebastian_sword": "Sebastainium Sword",
     "item.sebsmod.sebastian_pickaxe": "Sebastainium Pickaxe",

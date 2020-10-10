@@ -20,6 +20,8 @@ public class ItemGroupOrder {
             Item.getItemFromBlock(RegistryHandler.BLOCK_OF_SEBASTIAN.get()), 
             RegistryHandler.AMBER.get(), 
             Item.getItemFromBlock(RegistryHandler.ONYX_BLOCK.get()),
+            RegistryHandler.RAW_SEBASTAINIUM.get(),
+            RegistryHandler.UNREFINED_SEBASTAINIUM.get(),
             RegistryHandler.SEBASTIANIUM_INGOT.get(),
             Item.getItemFromBlock(RegistryHandler.SEBASTAINIUM_BLOCK.get()),
             RegistryHandler.SEBASTAINIUM_HELMET.get(),

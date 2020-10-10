@@ -1,32 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern":
-  [
-    "lad",
-    "ggg"
-  ],
-  "key":
-  {
-    "g":
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
     {
-      "item": "minecraft:glass_pane"
+      "item": "sebsmod:sebastianium_ingot"
     },
-    "l":
-    {
-      "item": "minecraft:lime_dye"
-    },
-    "d":
     {
       "item": "minecraft:dirt"
-    },
-    "a":
-    {
-      "item": "minecraft:air"
     }
-  },
+  ],
   "result":
   {
     "item": "sebsmod:sebastian",
-    "count": 1
+    "count": 8
   }
 }

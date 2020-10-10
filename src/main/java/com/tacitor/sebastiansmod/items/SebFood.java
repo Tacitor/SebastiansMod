@@ -6,7 +6,6 @@
 package com.tacitor.sebastiansmod.items;
 
 import com.tacitor.sebastiansmod.SebastiansMod;
-import java.util.function.Supplier;
 import net.minecraft.item.Food;
 import net.minecraft.item.Item;
 import net.minecraft.potion.EffectInstance;

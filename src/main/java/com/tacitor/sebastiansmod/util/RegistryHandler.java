@@ -46,8 +46,10 @@ public class RegistryHandler {
     
     // Items
     public static final RegistryObject<SebFood> SEBASTIAN = ITEMS.register("sebastian", SebFood::new);
-    public static final RegistryObject<Item> AMBER = ITEMS.register("amber", ItemBase::new);    
+    public static final RegistryObject<Item> AMBER = ITEMS.register("amber", ItemBase::new);
     public static final RegistryObject<Item> SEBASTIANIUM_INGOT = ITEMS.register("sebastianium_ingot", ItemBase::new);
+    public static final RegistryObject<Item> UNREFINED_SEBASTAINIUM = ITEMS.register("unrefined_sebastainium", ItemBase::new);
+    public static final RegistryObject<Item> RAW_SEBASTAINIUM = ITEMS.register("raw_sebastainium", ItemBase::new);
     
     //Tools
     public static final RegistryObject<SwordItem> SEBASTIAN_SWORD = ITEMS.register("sebastian_sword", () ->
