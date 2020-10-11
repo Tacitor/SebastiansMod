@@ -11,6 +11,7 @@ import com.tacitor.sebastiansmod.blocks.BlockItemBase;
 import com.tacitor.sebastiansmod.items.ItemBase;
 import com.tacitor.sebastiansmod.blocks.OnyxBlock;
 import com.tacitor.sebastiansmod.blocks.SebastainiumBlock;
+import com.tacitor.sebastiansmod.blocks.SebastainiumOre;
 import com.tacitor.sebastiansmod.blocks.SebastianBlock;
 import com.tacitor.sebastiansmod.items.SebFood;
 import com.tacitor.sebastiansmod.tools.ModItemTier;
@@ -79,10 +80,12 @@ public class RegistryHandler {
     public static final RegistryObject<Block> ONYX_BLOCK = BLOCKS.register("onyx_block", OnyxBlock::new);
     public static final RegistryObject<Block> BLOCK_OF_SEBASTIAN = BLOCKS.register("block_of_sebastian", SebastianBlock::new);
     public static final RegistryObject<Block> SEBASTAINIUM_BLOCK = BLOCKS.register("sebastainium_block", SebastainiumBlock::new);
+    public static final RegistryObject<Block> SEBASTAINIUM_ORE = BLOCKS.register("sebastainium_ore", SebastainiumOre::new);
     
     //Block Items
     public static final RegistryObject<Item> ONYX_BLOCK_ITEM = ITEMS.register("onyx_block", () -> new BlockItemBase(ONYX_BLOCK.get()));
     public static final RegistryObject<Item> BLOCK_OF_SEBASTIAN_ITEM = ITEMS.register("block_of_sebastian", () -> new BlockItemBase(BLOCK_OF_SEBASTIAN.get()));
     public static final RegistryObject<Item> SEBASTAINIUM_BLOCK_ITEM = ITEMS.register("sebastainium_block", () -> new BlockItemBase(SEBASTAINIUM_BLOCK.get()));
+    public static final RegistryObject<Item> SEBASTAINIUM_ORE_ITEM = ITEMS.register("sebastainium_ore", () -> new BlockItemBase(SEBASTAINIUM_ORE.get()));
     
 }

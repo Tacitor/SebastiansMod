@@ -21,8 +21,7 @@ public class SebastainiumBlock extends Block{
                 .harvestLevel(2)
                 .harvestTool(ToolType.PICKAXE)
                 .sound(SoundType.METAL)
-                .hardnessAndResistance(5.5f, 30)
-        
+                .hardnessAndResistance(5.5f, 40)        
         );
     }
     
