@@ -1,157 +1,144 @@
-[12Oct2020 20:21:57.935] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20200515.085601, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 31.2.0, --version, MOD_DEV, --assetIndex, 1.15, --assetsDir, C:\Users\Lukas\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ????????, --userProperties, {}]
-[12Oct2020 20:21:57.940] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.1.2+70+master.2845bb9 starting: java version 1.8.0_201 by Oracle Corporation
-[12Oct2020 20:21:58.750] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[12Oct2020 20:22:00.288] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Lukas\.gradle\caches\forge_gradle\assets, --assetIndex, 1.15, --username, Dev, --accessToken, ????????, --userProperties, {}]
-[12Oct2020 20:22:02.864] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[12Oct2020 20:22:15.536] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
-[12Oct2020 20:22:17.040] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.2.0, for MC 1.15.2 with MCP 20200515.085601
-[12Oct2020 20:22:17.040] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.2.0 Initialized
-[12Oct2020 20:22:19.511] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
-[12Oct2020 20:22:19.599] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
-[12Oct2020 20:22:19.799] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[12Oct2020 20:22:20.238] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 31.2.0 Target: null
-[12Oct2020 20:22:26.130] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
-[12Oct2020 20:22:26.131] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
-[12Oct2020 20:22:26.263] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[12Oct2020 20:22:26.397] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x4 minecraft:textures/atlas/signs.png-atlas
-[12Oct2020 20:22:26.398] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[12Oct2020 20:22:26.398] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[12Oct2020 20:22:26.399] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[12Oct2020 20:22:26.400] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[12Oct2020 20:22:26.400] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[12Oct2020 20:22:26.821] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[12Oct2020 20:22:26.822] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[12Oct2020 20:22:26.823] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[12Oct2020 20:22:27.366] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[12Oct2020 20:22:30.986] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[12Oct2020 20:22:30.987] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[12Oct2020 20:22:30.987] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[12Oct2020 20:22:30.988] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[12Oct2020 20:22:30.989] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[12Oct2020 20:22:31.127] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.15.2
-[12Oct2020 20:22:31.127] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
-[12Oct2020 20:22:31.288] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
-[12Oct2020 20:22:31.573] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar, main
-[12Oct2020 20:22:32.470] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
-[12Oct2020 20:22:34.274] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 825 advancements
-[12Oct2020 20:22:34.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[12Oct2020 20:22:35.661] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[12Oct2020 20:22:35.661] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[12Oct2020 20:22:35.795] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[12Oct2020 20:22:36.296] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 1550 ms
-[12Oct2020 20:22:36.659] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[12Oct2020 20:22:36.661] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[12Oct2020 20:22:36.665] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 11, from 10
-[12Oct2020 20:22:38.452] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
-[12Oct2020 20:22:38.585] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@72db643a
-[12Oct2020 20:22:38.610] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:9fe527db] logged in with entity id 220 at (195.26919306134698, 65.0, 46.45007664270723)
-[12Oct2020 20:22:38.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[12Oct2020 20:22:39.036] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[12Oct2020 20:22:39.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
-[12Oct2020 20:22:39.246] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 796 advancements
-[12Oct2020 20:22:44.503] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 4
-[12Oct2020 20:22:45.633] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 4
-[12Oct2020 20:22:46.781] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 4
-[12Oct2020 20:22:47.931] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 5
-[12Oct2020 20:22:49.081] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 3
-[12Oct2020 20:22:50.231] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 5
-[12Oct2020 20:22:54.482] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 3
-[12Oct2020 20:22:55.632] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 3
-[12Oct2020 20:22:56.781] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 3
-[12Oct2020 20:22:57.931] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 4
-[12Oct2020 20:22:59.682] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 5
-[12Oct2020 20:23:00.831] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 4
-[12Oct2020 20:23:05.982] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 4
-[12Oct2020 20:23:06.932] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 4
-[12Oct2020 20:23:07.882] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 4
-[12Oct2020 20:23:08.832] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 5
-[12Oct2020 20:23:09.782] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 4
-[12Oct2020 20:23:10.732] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 4
-[12Oct2020 20:23:17.333] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 6
-[12Oct2020 20:23:18.483] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 6
-[12Oct2020 20:23:19.634] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 7
-[12Oct2020 20:23:20.784] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 6
-[12Oct2020 20:23:21.933] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 6
-[12Oct2020 20:23:23.083] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 7
-[12Oct2020 20:23:28.834] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 6
-[12Oct2020 20:23:29.984] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 7
-[12Oct2020 20:23:31.134] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 7
-[12Oct2020 20:23:32.284] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 8
-[12Oct2020 20:23:33.434] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 6
-[12Oct2020 20:23:34.584] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 7
-[12Oct2020 20:23:44.124] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Diamond Pickaxe cannot support that enchantment
-[12Oct2020 20:24:32.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Applied enchantment Fortune II to Dev's item]
-[12Oct2020 20:24:32.419] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Applied enchantment Fortune II to Dev's item
-[12Oct2020 20:24:38.196] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 10
-[12Oct2020 20:24:39.343] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 11
-[12Oct2020 20:24:40.493] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 9
-[12Oct2020 20:24:41.642] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 11
-[12Oct2020 20:24:42.793] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 11
-[12Oct2020 20:24:43.944] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 9
-[12Oct2020 20:24:46.943] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 11
-[12Oct2020 20:24:48.094] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 11
-[12Oct2020 20:24:49.243] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 11
-[12Oct2020 20:24:50.394] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 11
-[12Oct2020 20:24:51.546] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 10
-[12Oct2020 20:24:52.695] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 11
-[12Oct2020 20:24:57.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Applied enchantment Fortune III to Dev's item]
-[12Oct2020 20:24:57.757] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Applied enchantment Fortune III to Dev's item
-[12Oct2020 20:25:01.544] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 14
-[12Oct2020 20:25:05.293] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 14
-[12Oct2020 20:25:06.244] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 12
-[12Oct2020 20:25:07.194] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 12
-[12Oct2020 20:25:08.144] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 13
-[12Oct2020 20:25:09.095] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 14
-[12Oct2020 20:25:10.043] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 12
-[12Oct2020 20:25:13.644] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 14
-[12Oct2020 20:25:14.594] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 12
-[12Oct2020 20:25:15.543] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 13
-[12Oct2020 20:25:16.494] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 14
-[12Oct2020 20:25:17.443] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 12
-[12Oct2020 20:25:18.395] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 14
-[12Oct2020 20:25:19.346] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 13
-[12Oct2020 20:25:50.824] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Sebastainium Hackaxe cannot support that enchantment
-[12Oct2020 20:25:56.388] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[12Oct2020 20:25:56.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
-[12Oct2020 20:26:42.963] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Unknown enchantment: minecraft:clear
-[12Oct2020 20:26:48.037] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[12Oct2020 20:26:48.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
-[12Oct2020 20:28:19.252] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Sebastainium Hackaxe cannot support that enchantment
-[12Oct2020 20:28:33.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Gave 1 [Grindstone] to Dev]
-[12Oct2020 20:28:33.184] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Gave 1 [Grindstone] to Dev
-[12Oct2020 20:28:41.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Applied enchantment Fortune enchantment.level.0 to Dev's item]
-[12Oct2020 20:28:41.786] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Applied enchantment Fortune enchantment.level.0 to Dev's item
-[12Oct2020 20:28:53.803] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 5
-[12Oct2020 20:28:55.153] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 4
-[12Oct2020 20:28:56.103] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 4
-[12Oct2020 20:28:57.053] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 3
-[12Oct2020 20:28:58.003] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 3
-[12Oct2020 20:28:58.953] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 4
-[12Oct2020 20:29:14.053] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 4
-[12Oct2020 20:29:15.004] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 3
-[12Oct2020 20:29:15.954] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 3
-[12Oct2020 20:29:16.904] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 5
-[12Oct2020 20:29:17.855] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 3
-[12Oct2020 20:29:18.804] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 5
-[12Oct2020 20:31:15.289] [Server thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Villager'/97, l='Mod Testing', x=123.44, y=38.00, z=-3.62] died, message: 'Villager hit the ground too hard whilst trying to escape Dev'
-[12Oct2020 20:31:15.294] [Render thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Villager'/97, l='MpServer', x=123.49, y=43.17, z=-3.63] died, message: 'Villager died'
-[12Oct2020 20:31:16.090] [Server thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Villager'/98, l='Mod Testing', x=124.13, y=39.00, z=-4.70] died, message: 'Villager hit the ground too hard whilst trying to escape Dev'
-[12Oct2020 20:31:16.094] [Render thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Villager'/98, l='MpServer', x=124.18, y=44.71, z=-4.70] died, message: 'Villager died'
-[12Oct2020 20:31:46.712] [Render thread/WARN] [net.minecraft.client.network.play.ClientPlayNetHandler/]: Received passengers for unknown entity
-[12Oct2020 20:35:40.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
-[12Oct2020 20:35:40.395] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Set own game mode to Creative Mode
-[12Oct2020 20:41:03.512] [Render thread/WARN] [net.minecraft.client.network.play.ClientPlayNetHandler/]: Received passengers for unknown entity
-[12Oct2020 20:46:01.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to 0.5, 96.08802993201239, 0.5]
-[12Oct2020 20:46:01.980] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Teleported Dev to 0.5, 96.08802993201239, 0.5
-[12Oct2020 20:46:25.387] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[12Oct2020 20:46:25.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
-[12Oct2020 20:46:26.746] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
-[12Oct2020 20:46:26.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[12Oct2020 20:46:26.758] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
-[12Oct2020 20:46:26.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[12Oct2020 20:46:26.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[12Oct2020 20:46:26.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[12Oct2020 20:46:26.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
-[12Oct2020 20:46:27.052] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Mod Testing): All chunks are saved
-[12Oct2020 20:46:27.065] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Mod Testing): All chunks are saved
-[12Oct2020 20:46:35.394] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[12Oct2020 22:56:11.113] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20200515.085601, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 31.2.0, --version, MOD_DEV, --assetIndex, 1.15, --assetsDir, C:\Users\Lukas\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[12Oct2020 22:56:11.119] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.1.2+70+master.2845bb9 starting: java version 1.8.0_201 by Oracle Corporation
+[12Oct2020 22:56:12.198] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[12Oct2020 22:56:13.980] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Lukas\.gradle\caches\forge_gradle\assets, --assetIndex, 1.15, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[12Oct2020 22:56:16.879] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[12Oct2020 22:56:31.728] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
+[12Oct2020 22:56:34.016] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.2.0, for MC 1.15.2 with MCP 20200515.085601
+[12Oct2020 22:56:34.016] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.2.0 Initialized
+[12Oct2020 22:56:36.770] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[12Oct2020 22:56:36.870] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[12Oct2020 22:56:38.912] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[12Oct2020 22:56:39.615] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 31.2.0 Target: null
+[12Oct2020 22:56:43.787] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[12Oct2020 22:56:43.788] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[12Oct2020 22:56:43.928] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[12Oct2020 22:56:44.072] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x4 minecraft:textures/atlas/signs.png-atlas
+[12Oct2020 22:56:44.072] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[12Oct2020 22:56:44.073] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[12Oct2020 22:56:44.074] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[12Oct2020 22:56:44.075] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[12Oct2020 22:56:44.076] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[12Oct2020 22:56:44.631] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[12Oct2020 22:56:44.632] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[12Oct2020 22:56:44.632] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[12Oct2020 22:56:45.461] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[12Oct2020 22:56:48.600] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12Oct2020 22:56:48.601] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12Oct2020 22:56:48.602] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12Oct2020 22:56:48.603] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12Oct2020 22:56:48.604] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12Oct2020 22:56:48.749] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.15.2
+[12Oct2020 22:56:48.749] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
+[12Oct2020 22:56:49.620] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
+[12Oct2020 22:56:49.907] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar, main
+[12Oct2020 22:56:50.889] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[12Oct2020 22:56:52.130] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 825 advancements
+[12Oct2020 22:56:52.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[12Oct2020 22:56:53.656] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[12Oct2020 22:56:53.656] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[12Oct2020 22:56:53.706] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[12Oct2020 22:56:55.728] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 3042 ms
+[12Oct2020 22:56:56.156] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12Oct2020 22:56:56.157] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12Oct2020 22:56:56.161] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 11, from 10
+[12Oct2020 22:56:57.922] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[12Oct2020 22:56:58.061] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@159591ce
+[12Oct2020 22:56:58.090] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:53d3047f] logged in with entity id 219 at (163.36543889151034, 96.08802993201239, 57.48494905318525)
+[12Oct2020 22:56:58.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[12Oct2020 22:56:58.723] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[12Oct2020 22:56:58.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
+[12Oct2020 22:56:58.882] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 796 advancements
+[12Oct2020 22:57:08.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
+[12Oct2020 22:57:08.898] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Set own game mode to Survival Mode
+[12Oct2020 22:57:10.822] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 3
+[12Oct2020 22:57:12.216] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 4
+[12Oct2020 22:57:13.371] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 4
+[12Oct2020 22:57:14.319] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 5
+[12Oct2020 22:57:15.271] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 3
+[12Oct2020 22:57:15.859] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[12Oct2020 22:57:15.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
+[12Oct2020 22:57:22.627] [Server thread/INFO] [STDOUT/]: [com.tacitor.sebastiansmod.blocks.SebastainiumOre:getExpDrop:44]: 5
+[12Oct2020 22:57:31.460] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[12Oct2020 22:57:31.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
+[12Oct2020 22:57:50.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
+[12Oct2020 22:57:50.678] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Set own game mode to Creative Mode
+[12Oct2020 22:57:58.559] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[12Oct2020 22:57:58.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
+[12Oct2020 22:58:07.319] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Changed the block at 177, 69, 74]
+[12Oct2020 22:58:07.328] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Changed the block at 177, 69, 74
+[12Oct2020 22:58:08.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Remote Getaway]
+[12Oct2020 22:58:08.763] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Dev has made the advancement [Remote Getaway]
+[12Oct2020 22:58:08.781] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 802 advancements
+[12Oct2020 22:58:19.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Changed the block at 177, 69, 74]
+[12Oct2020 22:58:19.079] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Changed the block at 177, 69, 74
+[12Oct2020 22:58:19.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [The End?]
+[12Oct2020 22:58:19.946] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Dev has made the advancement [The End?]
+[12Oct2020 22:58:20.468] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 808 advancements
+[12Oct2020 22:58:21.607] [Server thread/INFO] [net.minecraft.world.end.DragonFightManager/]: Scanning for legacy world dragon fight...
+[12Oct2020 22:58:21.624] [Server thread/INFO] [net.minecraft.world.end.DragonFightManager/]: Found that the dragon has not yet been killed in this world.
+[12Oct2020 22:58:22.752] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2044ms or 40 ticks behind
+[12Oct2020 22:58:54.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Successfully filled 29 blocks]
+[12Oct2020 22:58:54.998] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Successfully filled 29 blocks
+[12Oct2020 22:59:02.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Successfully filled 141 blocks]
+[12Oct2020 22:59:02.648] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Successfully filled 141 blocks
+[12Oct2020 22:59:06.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Successfully filled 164 blocks]
+[12Oct2020 22:59:06.382] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Successfully filled 164 blocks
+[12Oct2020 22:59:09.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Successfully filled 88 blocks]
+[12Oct2020 22:59:09.232] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Successfully filled 88 blocks
+[12Oct2020 22:59:12.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Successfully filled 139 blocks]
+[12Oct2020 22:59:12.932] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Successfully filled 139 blocks
+[12Oct2020 22:59:18.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Successfully filled 150 blocks]
+[12Oct2020 22:59:18.783] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Successfully filled 150 blocks
+[12Oct2020 22:59:22.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Successfully filled 50 blocks]
+[12Oct2020 22:59:22.016] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Successfully filled 50 blocks
+[12Oct2020 22:59:24.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Successfully filled 82 blocks]
+[12Oct2020 22:59:24.883] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Successfully filled 82 blocks
+[12Oct2020 22:59:38.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Successfully filled 174 blocks]
+[12Oct2020 22:59:38.151] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Successfully filled 174 blocks
+[12Oct2020 22:59:42.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Successfully filled 202 blocks]
+[12Oct2020 22:59:42.367] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Successfully filled 202 blocks
+[12Oct2020 22:59:44.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Successfully filled 72 blocks]
+[12Oct2020 22:59:44.317] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Successfully filled 72 blocks
+[12Oct2020 22:59:55.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Successfully filled 160 blocks]
+[12Oct2020 22:59:55.701] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Successfully filled 160 blocks
+[12Oct2020 23:00:04.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Successfully filled 148 blocks]
+[12Oct2020 23:00:04.919] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Successfully filled 148 blocks
+[12Oct2020 23:00:08.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Successfully filled 97 blocks]
+[12Oct2020 23:00:08.102] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Successfully filled 97 blocks
+[12Oct2020 23:00:14.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Successfully filled 175 blocks]
+[12Oct2020 23:00:14.786] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Successfully filled 175 blocks
+[12Oct2020 23:00:32.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Successfully filled 178 blocks]
+[12Oct2020 23:00:32.137] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Successfully filled 178 blocks
+[12Oct2020 23:00:36.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Successfully filled 153 blocks]
+[12Oct2020 23:00:36.103] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Successfully filled 153 blocks
+[12Oct2020 23:00:38.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Successfully filled 120 blocks]
+[12Oct2020 23:00:38.504] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Successfully filled 120 blocks
+[12Oct2020 23:00:43.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Successfully filled 6457 blocks]
+[12Oct2020 23:00:43.291] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Successfully filled 6457 blocks
+[12Oct2020 23:00:49.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Successfully filled 8518 blocks]
+[12Oct2020 23:00:49.805] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Successfully filled 8518 blocks
+[12Oct2020 23:00:54.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Successfully filled 14929 blocks]
+[12Oct2020 23:00:54.604] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Successfully filled 14929 blocks
+[12Oct2020 23:00:55.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Successfully filled 13028 blocks]
+[12Oct2020 23:00:55.688] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Successfully filled 13028 blocks
+[12Oct2020 23:00:57.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Successfully filled 12027 blocks]
+[12Oct2020 23:00:57.322] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Successfully filled 12027 blocks
+[12Oct2020 23:00:58.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Successfully filled 2538 blocks]
+[12Oct2020 23:00:58.572] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Successfully filled 2538 blocks
+[12Oct2020 23:01:16.109] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[12Oct2020 23:01:16.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:the_end
+[12Oct2020 23:01:16.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
+[12Oct2020 23:01:16.912] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
+[12Oct2020 23:01:16.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[12Oct2020 23:01:16.921] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[12Oct2020 23:01:16.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[12Oct2020 23:01:16.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[12Oct2020 23:01:16.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[12Oct2020 23:01:16.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:the_end
+[12Oct2020 23:01:16.970] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12Oct2020 23:01:16.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
+[12Oct2020 23:01:17.209] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Mod Testing): All chunks are saved
+[12Oct2020 23:01:17.218] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12Oct2020 23:01:17.229] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Mod Testing): All chunks are saved
+[12Oct2020 23:01:19.741] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

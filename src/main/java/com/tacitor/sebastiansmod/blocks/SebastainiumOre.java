@@ -41,7 +41,7 @@ public class SebastainiumOre extends OreBlock {
         } else {
             exp = 0;
         }
-        System.out.println(exp);
+        //System.out.println(exp);
         return exp;
     }
     
