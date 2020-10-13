@@ -70,9 +70,6 @@ public class SebastiansMod
     static void modTabInit() {
         //get the list of items in order
         
-        //import the order
-        ItemGroupOrder ORDER = new ItemGroupOrder();
-        
-        tabSorter = Ordering.explicit(ORDER.getOrder()).onResultOf(ItemStack::getItem);
+        tabSorter = Ordering.explicit(ItemGroupOrder.TAB_ORDER).onResultOf(ItemStack::getItem);
     }
 }

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xax",
+    "xax"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "sebsmod:sebastianium_ingot"
+    },
+    "a":
+    {
+      "item": "minecraft:air"
+    }
+  },
+  "result":
+  {
+    "item": "sebsmod:sebastainium_boots",
+    "count": 1
+  }
+}

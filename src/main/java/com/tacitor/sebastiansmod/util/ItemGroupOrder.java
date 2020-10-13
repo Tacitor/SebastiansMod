@@ -1,5 +1,5 @@
 /*
- * Lukas Krampitz
+ * Tacitor
  * Oct 3, 2020
  * Large variables that can be called elsware to keep classes cleaner
  */
@@ -15,11 +15,14 @@ import net.minecraft.item.Item;
  */
 public class ItemGroupOrder {
     
-    private static final List<Item> TAB_ORDER = Arrays.asList(
+    public static final List<Item> TAB_ORDER = Arrays.asList(
             RegistryHandler.SEBASTIAN.get(), 
             Item.getItemFromBlock(RegistryHandler.BLOCK_OF_SEBASTIAN.get()), 
             RegistryHandler.AMBER.get(), 
             Item.getItemFromBlock(RegistryHandler.ONYX_BLOCK.get()),
+            Item.getItemFromBlock(RegistryHandler.SEBASTAINIUM_ORE.get()),
+            RegistryHandler.UNREFINED_SEBASTAINIUM.get(),
+            RegistryHandler.RAW_SEBASTAINIUM.get(),
             RegistryHandler.SEBASTIANIUM_INGOT.get(),
             Item.getItemFromBlock(RegistryHandler.SEBASTAINIUM_BLOCK.get()),
             RegistryHandler.SEBASTAINIUM_HELMET.get(),
@@ -33,13 +36,4 @@ public class ItemGroupOrder {
             RegistryHandler.SEBASTIAN_SHOVEL.get(), 
             RegistryHandler.SEBASTIAN_HOE.get()
     );
-    
-    public ItemGroupOrder() {
-        
-    }
-    
-    //accessor for the hackaxe
-    public List<Item> getOrder() {
-        return TAB_ORDER;
-    }    
 }

@@ -14,12 +14,12 @@
     },
     "s":
     {
-      "item": "sebsmod:sebastian"
+      "item": "sebsmod:unrefined_sebastainium"
     }
   },
   "result":
   {
-    "item": "sebsmod:sebastianium_ingot",
+    "item": "sebsmod:raw_sebastainium",
     "count": 1
   }
 }
