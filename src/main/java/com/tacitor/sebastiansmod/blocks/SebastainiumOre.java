@@ -6,9 +6,12 @@
 package com.tacitor.sebastiansmod.blocks;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
 import net.minecraft.block.OreBlock;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.IWorldReader;
 import net.minecraftforge.common.ToolType;
 
 /**
@@ -22,8 +25,26 @@ public class SebastainiumOre extends OreBlock {
                 .harvestLevel(2)
                 .harvestTool(ToolType.PICKAXE)
                 .sound(SoundType.STONE)
-                .hardnessAndResistance(3.5f, 20)
+                .hardnessAndResistance(4.5f, 50)
         );
     }
+
+    @Override
+    public int getExpDrop(BlockState state, IWorldReader reader, BlockPos pos, int fortune, int silktouch) {
+        int exp = 3; //base
+        //check for silk touch
+        if (silktouch < 1) {
+            //fortune multiplyer
+            exp += exp * fortune;
+            //random value added
+            exp += (int)(Math.random() * 3);
+        } else {
+            exp = 0;
+        }
+        System.out.println(exp);
+        return exp;
+    }
+    
+    
     
 }
