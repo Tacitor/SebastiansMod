@@ -1,13 +1,9 @@
 package com.tacitor.sebastiansmod;
 
 import com.google.common.collect.Ordering;
-import com.tacitor.sebastiansmod.util.HackaxeData;
 import com.tacitor.sebastiansmod.util.ItemGroupOrder;
 import com.tacitor.sebastiansmod.util.RegistryHandler;
-import java.util.Arrays;
 import java.util.Comparator;
-import java.util.List;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.NonNullList;
