@@ -14,7 +14,7 @@ issueTrackerURL="https://github.com/Tacitor/SebastiansMod/issues" #optional
 # The modid of the mod
 modId="sebsmod" #mandatory
 # The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
-version="1.15.2-2.6.0" #mandatory
+version="1.15.2-2.6.1" #mandatory
  # A display name for the mod
 displayName="Sebastian's Mod" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification <here>
