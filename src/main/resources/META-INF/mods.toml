@@ -24,7 +24,7 @@ displayURL="https://github.com/Tacitor/SebastiansMod" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="logo.png" #optional
 # A text field displayed in the mod UI
-credits="Thanks for this mod goes to Java, Forge, and a massive thank you to the wonderful Xela" #optional
+credits="Thanks for this mod goes to Java, Forge, and a massive thank you to Xela" #optional
 # A text field displayed in the mod UI
 authors="Tacitor" #optional
 # The description text for the mod (multi line!) (#mandatory)
