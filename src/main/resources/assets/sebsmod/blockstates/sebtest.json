@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "sebsmod:block/sebtest" },
+    "facing=south": { "model": "sebsmod:block/sebtest", "y":  180},
+    "facing=west": { "model": "sebsmod:block/sebtest", "y":  270},
+    "facing=east": { "model": "sebsmod:block/sebtest", "y":  90}
+  }
+}

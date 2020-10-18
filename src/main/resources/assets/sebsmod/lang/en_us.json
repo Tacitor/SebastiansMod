@@ -1,6 +1,7 @@
 {
     "item.sebsmod.sebastian": "Sebastian",
     "item.sebsmod.amber": "Amber",
+    "item.sebsmod.raw_sebastainium" : "Raw Sebastainium",
     "item.sebsmod.unrefined_sebastainium" : "Unrefined Sebastainium",
     "item.sebsmod.raw_sebastainium" : "Raw Sebastainium",
     "item.sebsmod.sebastianium_ingot": "Sebastainium Ingot",
@@ -17,6 +18,7 @@
     "block.sebsmod.onyx_block": "Onyx",
     "block.sebsmod.block_of_sebastian": "Block Of Sebastian",
     "block.sebsmod.sebastainium_block" : "Sebastainium Block",
-    "block.sebsmod.sebastainium_ore" : "Sebastainium Ore",    
+    "block.sebsmod.sebastainium_ore" : "Sebastainium Ore",
+    "block.sebsmod.sebtest" : "Seb Test",
     "itemGroup.sebsmodtab" : "Sebastian's Mod"
 }
