@@ -61,10 +61,8 @@ public class NewSebastainiumOre extends Block {
         builder.add(FACING);
     }
 
-    /*
     @Override
     public float getAmbientOcclusionLightValue(BlockState state, IBlockReader worldIn, BlockPos pos) {
-        return 0.1f;
+        return 0.7f;
     }
-    */
 }
