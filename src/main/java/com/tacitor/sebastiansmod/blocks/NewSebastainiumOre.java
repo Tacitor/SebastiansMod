@@ -40,16 +40,19 @@ public class NewSebastainiumOre extends Block {
                 .hardnessAndResistance(4.5f, 50)
         );
     }
-
+    
+    /*
     @Override
     public BlockState getStateForPlacement(BlockItemUseContext context) {
         return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite());
     }
-
+    
+    
     @Override
     public BlockState rotate(BlockState state, Rotation rotation) {
         return state.with(FACING, rotation.rotate(state.get(FACING)));
     }
+    */
 
     @Override
     public BlockState mirror(BlockState state, Mirror mirrorIn) {
@@ -60,6 +63,7 @@ public class NewSebastainiumOre extends Block {
     protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
         builder.add(FACING);
     }
+    
 
     @Override
     public float getAmbientOcclusionLightValue(BlockState state, IBlockReader worldIn, BlockPos pos) {
