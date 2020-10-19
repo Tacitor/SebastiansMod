@@ -4,6 +4,6 @@ Sebastian's Mod is a mod for Minecraft Java using the Forge API. Development sta
 
 ## [**>> Download here**](https://github.com/Tacitor/SebastiansMod/releases)
 
-###Download and Install
+### Download and Install
 
 Simply download the latest release [here](https://github.com/Tacitor/SebastiansMod/releases) as a .jar file. This can then be droped right into the mods folder of your minecraft directory. Just made sure you have forge installed first. 
