@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "new Seb ore/new_sebastainium_ore",
-		"particle": "new Seb ore/new_sebastainium_ore"
+		"0": "sebsmod:blocks/new_sebastainium_ore",
+		"particle": "sebsmod:blocks/new_sebastainium_ore"
 	},
 	"elements": [
 		{
