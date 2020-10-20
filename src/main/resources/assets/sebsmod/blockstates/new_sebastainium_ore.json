@@ -1,5 +1,5 @@
 {
   "variants": {
-    "facing=north": { "model": "sebsmod:block/new_sebastainium_ore" }
+    "": { "model": "sebsmod:block/new_sebastainium_ore" }
   }
 }

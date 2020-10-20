@@ -82,7 +82,7 @@ public class RegistryHandler {
     public static final RegistryObject<Block> ONYX_BLOCK = BLOCKS.register("onyx_block", OnyxBlock::new);
     public static final RegistryObject<Block> BLOCK_OF_SEBASTIAN = BLOCKS.register("block_of_sebastian", SebastianBlock::new);
     public static final RegistryObject<Block> SEBASTAINIUM_BLOCK = BLOCKS.register("sebastainium_block", SebastainiumBlock::new);
-    public static final RegistryObject<Block> SEBASTAINIUM_ORE = BLOCKS.register("sebastainium_ore", SebastainiumOre::new);
+    public static final RegistryObject<Block> SEBASTAINIUM_ORE = BLOCKS.register("sebastainium_ore", NewSebastainiumOre::new);
     public static final RegistryObject<Block> SEBTEST = BLOCKS.register("sebtest", SebTest::new);
     public static final RegistryObject<Block> NEW_SEBASTAINIUM_ORE = BLOCKS.register("new_sebastainium_ore", NewSebastainiumOre::new);
     

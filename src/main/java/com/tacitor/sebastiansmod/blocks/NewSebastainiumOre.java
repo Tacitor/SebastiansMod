@@ -9,6 +9,7 @@ import java.util.stream.Stream;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.HorizontalBlock;
+import net.minecraft.block.OreBlock;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.BlockItemUseContext;
@@ -22,13 +23,14 @@ import net.minecraft.util.math.shapes.ISelectionContext;
 import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraft.util.math.shapes.VoxelShapes;
 import net.minecraft.world.IBlockReader;
+import net.minecraft.world.IWorldReader;
 import net.minecraftforge.common.ToolType;
 
 /**
  *
  * @author Tacitor
  */
-public class NewSebastainiumOre extends Block {
+public class NewSebastainiumOre extends OreBlock {
 
     private static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 
@@ -68,5 +70,21 @@ public class NewSebastainiumOre extends Block {
     @Override
     public float getAmbientOcclusionLightValue(BlockState state, IBlockReader worldIn, BlockPos pos) {
         return 0.7f;
+    }
+    
+    @Override
+    public int getExpDrop(BlockState state, IWorldReader reader, BlockPos pos, int fortune, int silktouch) {
+        int exp = 3; //base
+        //check for silk touch
+        if (silktouch < 1) {
+            //fortune multiplyer
+            exp += exp * fortune;
+            //random value added
+            exp += (int)(Math.random() * 3);
+        } else {
+            exp = 0;
+        }
+        //System.out.println(exp);
+        return exp;
     }
 }
