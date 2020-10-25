@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "facing=north": { "model": "sebsmod:block/new_sebastainium_ore" },
-    "facing=south": { "model": "sebsmod:block/new_sebastainium_ore", "y":  180},
-    "facing=west": { "model": "sebsmod:block/new_sebastainium_ore", "y":  270},
-    "facing=east": { "model": "sebsmod:block/new_sebastainium_ore", "y":  90}
-  }
-}
