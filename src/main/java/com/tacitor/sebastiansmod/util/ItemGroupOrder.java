@@ -35,7 +35,6 @@ public class ItemGroupOrder {
             RegistryHandler.SEBASTIAN_AXE.get(),
             RegistryHandler.SEBASTIAN_SHOVEL.get(), 
             RegistryHandler.SEBASTIAN_HOE.get(),
-            Item.getItemFromBlock(RegistryHandler.SEBTEST.get()),
-            Item.getItemFromBlock(RegistryHandler.NEW_SEBASTAINIUM_ORE.get())
+            Item.getItemFromBlock(RegistryHandler.SEBTEST.get())
     );
 }

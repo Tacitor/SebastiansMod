@@ -84,7 +84,6 @@ public class RegistryHandler {
     public static final RegistryObject<Block> SEBASTAINIUM_BLOCK = BLOCKS.register("sebastainium_block", SebastainiumBlock::new);
     public static final RegistryObject<Block> SEBASTAINIUM_ORE = BLOCKS.register("sebastainium_ore", NewSebastainiumOre::new);
     public static final RegistryObject<Block> SEBTEST = BLOCKS.register("sebtest", SebTest::new);
-    public static final RegistryObject<Block> NEW_SEBASTAINIUM_ORE = BLOCKS.register("new_sebastainium_ore", NewSebastainiumOre::new);
     
     //Block Items
     public static final RegistryObject<Item> ONYX_BLOCK_ITEM = ITEMS.register("onyx_block", () -> new BlockItemBase(ONYX_BLOCK.get()));
@@ -92,6 +91,5 @@ public class RegistryHandler {
     public static final RegistryObject<Item> SEBASTAINIUM_BLOCK_ITEM = ITEMS.register("sebastainium_block", () -> new BlockItemBase(SEBASTAINIUM_BLOCK.get()));
     public static final RegistryObject<Item> SEBASTAINIUM_ORE_ITEM = ITEMS.register("sebastainium_ore", () -> new BlockItemBase(SEBASTAINIUM_ORE.get()));
     public static final RegistryObject<Item> SEBTEST_ITEM = ITEMS.register("sebtest", () -> new BlockItemBase(SEBTEST.get()));
-    public static final RegistryObject<Item> NEW_SEBASTAINIUM_ORE_ITEM = ITEMS.register("new_sebastainium_ore", () -> new BlockItemBase(NEW_SEBASTAINIUM_ORE.get()));
     
 }
