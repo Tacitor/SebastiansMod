@@ -17,14 +17,14 @@ public class ItemGroupOrder {
     
     public static final List<Item> TAB_ORDER = Arrays.asList(
             RegistryHandler.SEBASTIAN.get(), 
-            Item.getItemFromBlock(RegistryHandler.BLOCK_OF_SEBASTIAN.get()), 
+            RegistryHandler.BLOCK_OF_SEBASTIAN_ITEM.get(), 
             RegistryHandler.AMBER.get(), 
-            Item.getItemFromBlock(RegistryHandler.ONYX_BLOCK.get()),
-            Item.getItemFromBlock(RegistryHandler.SEBASTAINIUM_ORE.get()),
+            RegistryHandler.ONYX_BLOCK_ITEM.get(),
+            RegistryHandler.SEBASTAINIUM_ORE_ITEM.get(),
             RegistryHandler.UNREFINED_SEBASTAINIUM.get(),
             RegistryHandler.RAW_SEBASTAINIUM.get(),
             RegistryHandler.SEBASTIANIUM_INGOT.get(),
-            Item.getItemFromBlock(RegistryHandler.SEBASTAINIUM_BLOCK.get()),
+            RegistryHandler.SEBASTAINIUM_BLOCK_ITEM.get(),
             RegistryHandler.SEBASTAINIUM_HELMET.get(),
             RegistryHandler.SEBASTAINIUM_CHESTPLATE.get(),
             RegistryHandler.SEBASTAINIUM_LEGGINGS.get(),
@@ -35,6 +35,6 @@ public class ItemGroupOrder {
             RegistryHandler.SEBASTIAN_AXE.get(),
             RegistryHandler.SEBASTIAN_SHOVEL.get(), 
             RegistryHandler.SEBASTIAN_HOE.get(),
-            Item.getItemFromBlock(RegistryHandler.SEBTEST.get())
+            RegistryHandler.SEBTEST_ITEM.get()
     );
 }
