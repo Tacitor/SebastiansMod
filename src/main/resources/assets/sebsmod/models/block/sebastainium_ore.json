@@ -3,7 +3,7 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"0": "sebsmod:blocks/sebastainium_ore",
-		"particle": "sebsmod:blocks/sebastainium_ore"
+		"particle": "sebsmod:blocks/old_sebastainium_ore"
 	},
 	"elements": [
 		{
