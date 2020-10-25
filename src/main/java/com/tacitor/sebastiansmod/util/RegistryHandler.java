@@ -13,7 +13,6 @@ import com.tacitor.sebastiansmod.items.ItemBase;
 import com.tacitor.sebastiansmod.blocks.OnyxBlock;
 import com.tacitor.sebastiansmod.blocks.SebTest;
 import com.tacitor.sebastiansmod.blocks.SebastainiumBlock;
-import com.tacitor.sebastiansmod.blocks.SebastainiumOre;
 import com.tacitor.sebastiansmod.blocks.SebastianBlock;
 import com.tacitor.sebastiansmod.items.SebFood;
 import com.tacitor.sebastiansmod.tools.ModItemTier;

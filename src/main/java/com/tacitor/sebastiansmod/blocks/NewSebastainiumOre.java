@@ -12,11 +12,9 @@ import net.minecraft.block.HorizontalBlock;
 import net.minecraft.block.OreBlock;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
-import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.state.DirectionProperty;
 import net.minecraft.state.StateContainer;
 import net.minecraft.util.Mirror;
-import net.minecraft.util.Rotation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.shapes.IBooleanFunction;
 import net.minecraft.util.math.shapes.ISelectionContext;
@@ -33,6 +31,8 @@ import net.minecraftforge.common.ToolType;
 public class NewSebastainiumOre extends OreBlock {
 
     private static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
+
+    private static final VoxelShape CUBE_VOXEL_SHAPE = Block.makeCuboidShape(0, 0, 0, 16, 16, 16);
 
     private static final VoxelShape VOXEL_SHAPE = Stream.of(
             Block.makeCuboidShape(0, 0, 0, 16, 16, 16),
@@ -202,10 +202,6 @@ public class NewSebastainiumOre extends OreBlock {
                 .hardnessAndResistance(4.5f, 50)
         );
     }
-    
-    public VoxelShape getShape(BlockState state, IBlockReader worldIn, BlockPos pos, ISelectionContext context) {
-        return VOXEL_SHAPE;
-    }
 
     /*
     @Override
@@ -249,4 +245,26 @@ public class NewSebastainiumOre extends OreBlock {
         //System.out.println(exp);
         return exp;
     }
+
+    @Override
+    public VoxelShape getCollisionShape(BlockState state, IBlockReader worldIn, BlockPos pos, ISelectionContext context) {
+        return VOXEL_SHAPE; //also light rendering
+    }
+
+    @Override
+    public VoxelShape getRaytraceShape(BlockState state, IBlockReader worldIn, BlockPos pos) {
+        return CUBE_VOXEL_SHAPE; //final. it is for placemnt and edges. let it be cube for better building
+    }
+
+    @Override
+    public VoxelShape getRenderShape(BlockState state, IBlockReader worldIn, BlockPos pos) {
+        return VOXEL_SHAPE; //final it is light rendering
+    }
+    
+    @Override
+    public VoxelShape getShape(BlockState state, IBlockReader worldIn, BlockPos pos, ISelectionContext context) {
+        return CUBE_VOXEL_SHAPE; //fianl it is for placemnt and edges. let it be cube for better building also. And also deals with block breaking particles
+    }  
+    
+    
 }
