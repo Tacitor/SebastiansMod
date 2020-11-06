@@ -1,82 +1,412 @@
-[25Oct2020 15:51:32.636] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20200515.085601, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 31.2.0, --version, MOD_DEV, --assetIndex, 1.15, --assetsDir, C:\Users\Lukas\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ????????, --userProperties, {}]
-[25Oct2020 15:51:32.640] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.1.2+70+master.2845bb9 starting: java version 1.8.0_201 by Oracle Corporation
-[25Oct2020 15:51:33.442] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[25Oct2020 15:51:35.394] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Lukas\.gradle\caches\forge_gradle\assets, --assetIndex, 1.15, --username, Dev, --accessToken, ????????, --userProperties, {}]
-[25Oct2020 15:51:38.648] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[25Oct2020 15:51:51.834] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
-[25Oct2020 15:51:53.435] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.2.0, for MC 1.15.2 with MCP 20200515.085601
-[25Oct2020 15:51:53.435] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.2.0 Initialized
-[25Oct2020 15:51:57.752] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
-[25Oct2020 15:51:57.836] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
-[25Oct2020 15:51:58.025] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[25Oct2020 15:51:58.463] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 31.2.0 Target: null
-[25Oct2020 15:52:02.391] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
-[25Oct2020 15:52:02.392] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
-[25Oct2020 15:52:02.511] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[25Oct2020 15:52:02.643] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x4 minecraft:textures/atlas/signs.png-atlas
-[25Oct2020 15:52:02.643] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[25Oct2020 15:52:02.644] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[25Oct2020 15:52:02.646] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[25Oct2020 15:52:02.646] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[25Oct2020 15:52:02.647] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[25Oct2020 15:52:03.746] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[25Oct2020 15:52:03.748] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[25Oct2020 15:52:03.748] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[25Oct2020 15:52:04.275] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[25Oct2020 15:52:10.325] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[25Oct2020 15:52:10.326] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[25Oct2020 15:52:10.327] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[25Oct2020 15:52:10.327] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[25Oct2020 15:52:10.328] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[25Oct2020 15:52:10.458] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.15.2
-[25Oct2020 15:52:10.458] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
-[25Oct2020 15:52:10.616] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
-[25Oct2020 15:52:10.681] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block: Found a missing id from the world sebsmod:new_sebastainium_ore
-[25Oct2020 15:52:10.880] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar, main
-[25Oct2020 15:52:11.787] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
-[25Oct2020 15:52:12.892] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 825 advancements
-[25Oct2020 15:52:14.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[25Oct2020 15:52:15.693] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[25Oct2020 15:52:15.693] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[25Oct2020 15:52:15.827] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[25Oct2020 15:52:16.360] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 1599 ms
-[25Oct2020 15:52:16.714] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[25Oct2020 15:52:16.717] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[25Oct2020 15:52:16.721] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 11, from 10
-[25Oct2020 15:52:18.448] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
-[25Oct2020 15:52:18.588] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@2a306a99
-[25Oct2020 15:52:18.615] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:12b3cc1d] logged in with entity id 220 at (186.5946415711587, 65.0, 57.23288304898473)
-[25Oct2020 15:52:18.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[25Oct2020 15:52:19.135] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[25Oct2020 15:52:19.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
-[25Oct2020 15:52:19.292] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 808 advancements
-[25Oct2020 15:52:34.594] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Ingot Jump!
-[25Oct2020 15:52:34.595] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Ingot Jump!
-[25Oct2020 15:52:34.615] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Nice jump bro!
-[25Oct2020 15:52:35.995] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Ingot Jump!
-[25Oct2020 15:52:35.995] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Ingot Jump!
-[25Oct2020 15:52:36.011] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Nice jump bro!
-[25Oct2020 15:52:45.846] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Ingot Jump!
-[25Oct2020 15:52:45.846] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Ingot Jump!
-[25Oct2020 15:52:45.861] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Nice jump bro!
-[25Oct2020 15:52:52.396] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Ingot Jump!
-[25Oct2020 15:52:52.396] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Ingot Jump!
-[25Oct2020 15:52:52.412] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Nice jump bro!
-[25Oct2020 15:53:17.747] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Ingot Jump!
-[25Oct2020 15:53:17.747] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Ingot Jump!
-[25Oct2020 15:53:17.763] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Nice jump bro!
-[25Oct2020 15:53:17.897] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Ingot Jump!
-[25Oct2020 15:53:17.898] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Ingot Jump!
-[25Oct2020 15:53:17.913] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Nice jump bro!
-[25Oct2020 15:53:37.435] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[25Oct2020 15:53:37.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
-[25Oct2020 15:53:37.894] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
-[25Oct2020 15:53:37.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[25Oct2020 15:53:37.910] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
-[25Oct2020 15:53:37.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[25Oct2020 15:53:37.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[25Oct2020 15:53:37.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[25Oct2020 15:53:37.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
-[25Oct2020 15:53:38.112] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Mod Testing): All chunks are saved
-[25Oct2020 15:53:38.127] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Mod Testing): All chunks are saved
-[25Oct2020 15:53:39.234] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[31Oct2020 20:43:42.387] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20200515.085601, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 31.2.0, --version, MOD_DEV, --assetIndex, 1.15, --assetsDir, C:\Users\Lukas\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[31Oct2020 20:43:42.407] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.1.2+70+master.2845bb9 starting: java version 1.8.0_201 by Oracle Corporation
+[31Oct2020 20:43:43.323] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[31Oct2020 20:43:45.549] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Lukas\.gradle\caches\forge_gradle\assets, --assetIndex, 1.15, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[31Oct2020 20:43:49.559] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[31Oct2020 20:44:04.333] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
+[31Oct2020 20:44:06.631] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.2.0, for MC 1.15.2 with MCP 20200515.085601
+[31Oct2020 20:44:06.631] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.2.0 Initialized
+[31Oct2020 20:44:09.977] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[31Oct2020 20:44:10.086] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[31Oct2020 20:44:10.312] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[31Oct2020 20:44:12.849] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 31.2.0 Target: null
+[31Oct2020 20:44:17.298] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[31Oct2020 20:44:17.299] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[31Oct2020 20:44:17.462] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[31Oct2020 20:44:17.601] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x4 minecraft:textures/atlas/signs.png-atlas
+[31Oct2020 20:44:17.602] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[31Oct2020 20:44:17.602] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[31Oct2020 20:44:17.603] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[31Oct2020 20:44:17.604] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[31Oct2020 20:44:17.605] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[31Oct2020 20:44:18.232] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[31Oct2020 20:44:18.234] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[31Oct2020 20:44:18.234] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[31Oct2020 20:44:18.888] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[31Oct2020 20:44:25.467] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[31Oct2020 20:44:25.467] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[31Oct2020 20:44:25.468] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[31Oct2020 20:44:25.469] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[31Oct2020 20:44:25.469] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[31Oct2020 20:44:25.617] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.15.2
+[31Oct2020 20:44:25.617] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
+[31Oct2020 20:44:25.809] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
+[31Oct2020 20:44:25.870] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block: Found a missing id from the world sebsmod:new_sebastainium_ore
+[31Oct2020 20:44:26.108] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar, main
+[31Oct2020 20:44:28.465] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[31Oct2020 20:44:29.848] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 825 advancements
+[31Oct2020 20:44:30.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[31Oct2020 20:44:31.454] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[31Oct2020 20:44:31.454] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[31Oct2020 20:44:31.454] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[31Oct2020 20:44:32.188] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 1817 ms
+[31Oct2020 20:44:32.778] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[31Oct2020 20:44:32.780] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[31Oct2020 20:44:32.782] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 11, from 10
+[31Oct2020 20:44:36.407] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[31Oct2020 20:44:36.534] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@3b2eba86
+[31Oct2020 20:44:36.569] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:5139c93b] logged in with entity id 214 at (184.36675557793689, 64.0, 58.461409447155575)
+[31Oct2020 20:44:36.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[31Oct2020 20:44:37.217] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[31Oct2020 20:44:37.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
+[31Oct2020 20:44:37.433] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 808 advancements
+[31Oct2020 20:45:52.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
+[31Oct2020 20:45:52.799] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Set own game mode to Survival Mode
+[31Oct2020 20:46:40.099] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[31Oct2020 20:46:40.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
+[31Oct2020 20:46:40.607] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
+[31Oct2020 20:46:40.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[31Oct2020 20:46:40.622] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[31Oct2020 20:46:40.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[31Oct2020 20:46:40.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[31Oct2020 20:46:40.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[31Oct2020 20:46:40.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
+[31Oct2020 20:46:40.965] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Mod Testing): All chunks are saved
+[31Oct2020 20:46:40.978] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Mod Testing): All chunks are saved
+[31Oct2020 20:46:43.308] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[31Oct2020 20:46:43.308] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[31Oct2020 20:46:43.309] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[31Oct2020 20:46:43.309] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[31Oct2020 20:46:43.310] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[31Oct2020 20:46:43.312] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.15.2
+[31Oct2020 20:46:43.312] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
+[31Oct2020 20:46:43.415] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
+[31Oct2020 20:46:43.480] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block: Found a missing id from the world sebsmod:new_sebastainium_ore
+[31Oct2020 20:46:43.640] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar, main
+[31Oct2020 20:46:44.524] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[31Oct2020 20:46:45.113] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 825 advancements
+[31Oct2020 20:46:45.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[31Oct2020 20:46:45.782] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[31Oct2020 20:46:45.946] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 164 ms
+[31Oct2020 20:46:45.963] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[31Oct2020 20:46:45.964] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[31Oct2020 20:46:45.965] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 11, from 10
+[31Oct2020 20:46:46.171] [Netty Local Client IO #1/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[31Oct2020 20:46:46.187] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@400e5b98
+[31Oct2020 20:46:46.194] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:773b11ff] logged in with entity id 969 at (174.64261458594333, 64.0, 37.14581283814259)
+[31Oct2020 20:46:46.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[31Oct2020 20:46:46.322] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[31Oct2020 20:46:46.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
+[31Oct2020 20:46:46.386] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 808 advancements
+[31Oct2020 20:46:56.416] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[31Oct2020 20:46:56.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
+[31Oct2020 20:47:14.548] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Ingot Jump!
+[31Oct2020 20:47:14.549] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Ingot Jump!
+[31Oct2020 20:47:14.581] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Nice jump bro!
+[31Oct2020 20:47:25.816] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[31Oct2020 20:47:25.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
+[31Oct2020 20:47:51.715] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[31Oct2020 20:47:51.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
+[31Oct2020 20:47:57.784] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Ingot Jump!
+[31Oct2020 20:47:57.785] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Ingot Jump!
+[31Oct2020 20:47:57.800] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Nice jump bro!
+[31Oct2020 20:48:05.485] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Ingot Jump!
+[31Oct2020 20:48:05.486] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Ingot Jump!
+[31Oct2020 20:48:05.501] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Nice jump bro!
+[31Oct2020 20:48:10.835] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Ingot Jump!
+[31Oct2020 20:48:10.836] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Ingot Jump!
+[31Oct2020 20:48:10.867] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Nice jump bro!
+[31Oct2020 20:48:32.365] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[31Oct2020 20:48:32.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
+[31Oct2020 20:49:05.155] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:05.155] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:05.155] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:05.167] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:05.204] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:05.218] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:05.255] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:05.267] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:05.305] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:05.318] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:05.355] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:05.367] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:05.405] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:05.405] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:05.405] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:05.405] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:11.515] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[31Oct2020 20:49:11.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
+[31Oct2020 20:49:23.607] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:23.607] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:23.618] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:23.656] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:23.667] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:23.706] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:23.720] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:23.756] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:23.768] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:23.806] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:23.819] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:23.855] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:23.866] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:23.918] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:23.922] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:23.922] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:23.922] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:23.922] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:35.164] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[31Oct2020 20:49:35.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
+[31Oct2020 20:49:44.074] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:44.074] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:44.074] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:44.117] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:46.074] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:49:46.074] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:49:46.074] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:49:46.119] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:49:46.125] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:49:46.168] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:49:49.174] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:49.174] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:49.174] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:49.217] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:49.223] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:49:49.268] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:50:12.775] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:12.775] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:12.775] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:12.818] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:12.825] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:12.868] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:12.876] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:12.917] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:13.176] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:13.176] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:13.177] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:13.217] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:13.226] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:13.267] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:13.276] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:13.317] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:13.525] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:13.526] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:13.526] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:13.567] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:13.576] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:13.618] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:13.726] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:13.727] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:13.727] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:13.768] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:13.775] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:13.818] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:13.825] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:13.868] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:16.176] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:50:16.176] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:50:16.176] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:50:16.218] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:50:16.225] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:50:16.268] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:50:18.575] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:18.575] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:18.575] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:18.616] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:18.625] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:18.668] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:28.977] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:28.977] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:28.977] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:29.019] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:29.027] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:29.068] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:29.076] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:29.118] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:29.126] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:29.168] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:50:44.477] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@85446a
+[31Oct2020 20:50:44.477] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@85446a
+[31Oct2020 20:50:44.477] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@85446a
+[31Oct2020 20:50:44.517] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@85446a
+[31Oct2020 20:50:44.527] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@85446a
+[31Oct2020 20:50:44.567] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@85446a
+[31Oct2020 20:50:47.978] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@85446a
+[31Oct2020 20:50:47.978] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@85446a
+[31Oct2020 20:50:47.978] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@85446a
+[31Oct2020 20:50:48.017] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@85446a
+[31Oct2020 20:50:48.028] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@85446a
+[31Oct2020 20:50:48.068] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@85446a
+[31Oct2020 20:50:48.078] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@85446a
+[31Oct2020 20:50:48.117] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@85446a
+[31Oct2020 20:51:49.881] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:51:49.881] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:51:49.881] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:51:49.919] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:51:49.931] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:51:49.969] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:51:49.982] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:51:50.018] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:51:50.031] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:51:50.069] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:51:52.282] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:51:52.282] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:51:52.282] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:51:52.319] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:51:53.733] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:51:53.733] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:51:53.733] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:51:53.768] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:51:53.782] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:51:53.820] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:51:55.232] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:51:55.232] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:51:55.233] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:51:55.269] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:51:55.281] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:51:55.318] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:51:56.982] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:51:56.982] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:51:56.982] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:51:57.018] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:51:57.031] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:51:57.070] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:51:57.731] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:51:57.732] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:51:57.732] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:51:57.770] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:51:57.782] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:51:57.818] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:51:59.432] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:51:59.432] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:51:59.433] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:51:59.469] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:51:59.482] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:51:59.518] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:01.032] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:01.032] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:01.032] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:01.068] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:01.082] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:01.119] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:01.132] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:01.170] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:01.782] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:01.782] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:01.782] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:01.818] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:01.832] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:01.868] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:01.882] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:01.920] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:01.932] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:01.969] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:02.682] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:52:02.682] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:52:02.682] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:52:02.718] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:52:02.732] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:52:02.768] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:52:03.682] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:52:03.682] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:52:03.682] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:52:03.719] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:52:03.732] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:52:03.768] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:52:03.932] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:52:03.932] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:52:03.932] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:52:03.968] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:52:03.982] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:52:04.018] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:52:04.132] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:52:04.133] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:52:04.133] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:52:04.168] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:52:04.182] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:52:04.218] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:52:04.332] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:52:04.332] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:52:04.332] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:52:04.369] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:52:04.383] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:52:04.419] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:52:06.033] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:06.033] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:06.033] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:06.068] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:06.083] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:06.120] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:06.133] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:06.168] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:11.283] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:11.283] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:11.283] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:11.318] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:11.332] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:11.369] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:11.382] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:11.418] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:11.432] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:11.469] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:11.482] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:11.519] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:12.032] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:12.033] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:12.033] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:12.069] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:12.083] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:12.119] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:12.132] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:12.166] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:12.167] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:12.217] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:12.232] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:12.268] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:12.282] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:12.318] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:13.633] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:13.633] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:13.633] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:13.670] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:13.683] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:13.719] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:13.733] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:13.766] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:13.768] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:13.819] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:13.832] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:13.868] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:13.883] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:13.883] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:13.884] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:13.884] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:17.917] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:17.917] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:17.922] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:17.969] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:17.983] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:18.017] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:18.019] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:18.071] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:20.017] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:20.017] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:20.022] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:20.067] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:20.069] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:20.118] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:20.118] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:20.168] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:20.616] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:52:20.617] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:52:20.624] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:52:20.667] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:52:20.670] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:52:20.719] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@5bdfae42
+[31Oct2020 20:52:21.317] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:21.317] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:21.323] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:21.367] [Render thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:21.368] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:21.418] [Server thread/INFO] [com.tacitor.sebastiansmod.SebastiansMod/]: Block: net.minecraft.block.material.Material@52b4da7c
+[31Oct2020 20:52:45.116] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[31Oct2020 20:52:45.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
+[31Oct2020 20:54:02.620] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
+[31Oct2020 20:54:02.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[31Oct2020 20:54:02.631] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[31Oct2020 20:54:02.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[31Oct2020 20:54:02.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[31Oct2020 20:54:02.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[31Oct2020 20:54:02.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
+[31Oct2020 20:54:02.953] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Mod Testing): All chunks are saved
+[31Oct2020 20:54:02.965] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Mod Testing): All chunks are saved
+[31Oct2020 20:54:05.207] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

@@ -6,6 +6,7 @@
 package com.tacitor.sebastiansmod.tools;
 
 import com.google.common.collect.ImmutableSet;
+import com.tacitor.sebastiansmod.SebastiansMod;
 import com.tacitor.sebastiansmod.util.HackaxeData;
 import java.util.Set;
 import net.minecraft.block.Block;
@@ -33,6 +34,11 @@ public class MultiPickaxeItem extends PickaxeItem{
     
     @Override
     public boolean canHarvestBlock(BlockState block) {
+        
+        if (true) {
+            
+            SebastiansMod.LOGGER.info("Block: " + block.getMaterial());
+        }
         
         return HackaxeData.HACKAXE_EFFECTIVE_ON.contains(block.getBlock()) ? true : super.canHarvestBlock(block);
     }
